@@ -1,0 +1,52 @@
+[[package]]
+name = "bitswap"
+version = "0.1.0"
+
+[[package]]
+name = "block"
+version = "0.1.0"
+
+[[package]]
+name = "blocks"
+version = "0.1.0"
+
+[[package]]
+name = "core"
+version = "0.1.0"
+
+[[package]]
+name = "dht"
+version = "0.1.0"
+
+[[package]]
+name = "msgproto"
+version = "0.1.0"
+
+[[package]]
+name = "netmux"
+version = "0.1.0"
+
+[[package]]
+name = "object"
+version = "0.1.0"
+
+[[package]]
+name = "path"
+version = "0.1.0"
+
+[[package]]
+name = "peer"
+version = "0.1.0"
+
+[[package]]
+name = "routing"
+version = "0.1.0"
+
+[[package]]
+name = "rust-ipfs"
+version = "0.1.0"
+
+[[package]]
+name = "storage"
+version = "0.1.0"
+

@@ -1,0 +1,24 @@
+[package]
+name = "rust-ipfs"
+version = "0.1.0"
+authors = ["xiaohuo <xiaohuo200@gmail.com>"]
+edition = "2018"
+
+[workspace]
+members = [
+    "bitswap",
+    "block",
+    "blocks",
+    "core",
+    "dht",
+    "msgproto",
+    "netmux",
+    "object",
+    "path",
+    "peer",
+    "routing",
+    "storage"
+]
+
+
+[dependencies]
