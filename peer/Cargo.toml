@@ -5,3 +5,5 @@ authors = ["xiaohuo <xiaohuo200@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+multiaddr = { git = "https://github.com/renlulu/rust-multiaddr" }
+multihash = { git = "https://github.com/renlulu/rust-multihash" }
