@@ -1,0 +1,9 @@
+[package]
+name = "merkledag"
+version = "0.1.0"
+authors = ["xiaohuo <xiaohuo200@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+multihash = { git = "https://github.com/renlulu/rust-multihash" }
+

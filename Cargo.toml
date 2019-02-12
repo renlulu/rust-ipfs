@@ -11,6 +11,7 @@ members = [
     "blocks",
     "core",
     "dht",
+    "merkledag",
     "msgproto",
     "netmux",
     "object",
