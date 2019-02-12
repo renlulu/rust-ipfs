@@ -14,7 +14,13 @@ version = "0.1.0"
 name = "core"
 version = "0.1.0"
 dependencies = [
+ "bitswap 0.1.0",
+ "blocks 0.1.0",
+ "netmux 0.1.0",
+ "path 0.1.0",
  "peer 0.1.0",
+ "routing 0.1.0",
+ "storage 0.1.0",
 ]
 
 [[package]]

@@ -6,3 +6,9 @@ edition = "2018"
 
 [dependencies]
 peer = { path= "../peer" }
+storage = { path="../storage"}
+netmux = { path="../netmux"}
+routing = { path="../routing"}
+bitswap = { path="../bitswap"}
+blocks= { path="../blocks"}
+path = { path="../path"}
