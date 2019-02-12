@@ -13,6 +13,9 @@ version = "0.1.0"
 [[package]]
 name = "core"
 version = "0.1.0"
+dependencies = [
+ "peer 0.1.0",
+]
 
 [[package]]
 name = "dht"
