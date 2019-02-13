@@ -102,6 +102,7 @@ name = "merkledag"
 version = "0.1.0"
 dependencies = [
  "multihash 0.8.1-pre (git+https://github.com/renlulu/rust-multihash)",
+ "protobuf 1.7.4 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -167,6 +168,11 @@ dependencies = [
 ]
 
 [[package]]
+name = "protobuf"
+version = "1.7.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
 name = "routing"
 version = "0.1.0"
 
@@ -223,6 +229,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum multibase 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)" = "b9c35dac080fd6e16a99924c8dfdef0af89d797dd851adab25feaffacf7850d6"
 "checksum multihash 0.8.0 (registry+https://github.com/rust-lang/crates.io-index)" = "c62469025f45dee2464ef9fc845f4683c543993792c1993e7d903c17a4546b74"
 "checksum multihash 0.8.1-pre (git+https://github.com/renlulu/rust-multihash)" = "<none>"
+"checksum protobuf 1.7.4 (registry+https://github.com/rust-lang/crates.io-index)" = "52fbc45bf6709565e44ef31847eb7407b3c3c80af811ee884a04da071dcca12b"
 "checksum sha1 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)" = "171698ce4ec7cbb93babeb3190021b4d72e96ccb98e33d277ae4ea959d6f2d9e"
 "checksum sha2 0.7.1 (registry+https://github.com/rust-lang/crates.io-index)" = "9eb6be24e4c23a84d7184280d2722f7f2731fcdd4a9d886efbfe4413e4847ea0"
 "checksum tiny-keccak 1.4.2 (registry+https://github.com/rust-lang/crates.io-index)" = "e9175261fbdb60781fcd388a4d6cc7e14764a2b629a7ad94abb439aed223a44f"

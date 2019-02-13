@@ -6,4 +6,4 @@ edition = "2018"
 
 [dependencies]
 multihash = { git = "https://github.com/renlulu/rust-multihash" }
-
+protobuf = "1.4"
