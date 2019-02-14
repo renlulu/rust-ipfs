@@ -3,12 +3,13 @@
 extern crate serde_derive;
 extern crate bincode;
 extern crate serde;
+extern crate cid;
 
-use bincode::{serialize, deserialize};
-use serde::{Serialize, Deserialize};
 
 extern crate multihash;
 
+use bincode::{serialize, deserialize};
+use serde::{Serialize, Deserialize};
 use multihash::Hash;
 
 pub mod node;
@@ -16,6 +17,9 @@ pub mod node;
 use node::PBNode;
 use node::PBLink;
 use protobuf::repeated::RepeatedField;
+use cid::Cid;
+use cid::Codec;
+use cid::Version;
 
 #[derive(Serialize, Deserialize, PartialEq, Debug)]
 pub struct Link {
@@ -31,6 +35,8 @@ pub struct Link {
 pub struct Node {
     pub links: Vec<Link>,
     pub data: Vec<u8>,
+    pub encoded: Vec<u8>,
+    pub cached: cid::Cid,
 }
 
 impl Default for Node {
@@ -38,6 +44,8 @@ impl Default for Node {
         Node {
             links: vec![],
             data: vec![],
+            encoded: vec![],
+            cached: Cid::new(Codec::DagProtobuf, Version::V1, &multihash::encode(multihash::Hash::SHA2256, b"").unwrap())
         }
     }
 }

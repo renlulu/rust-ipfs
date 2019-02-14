@@ -57,11 +57,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "cid"
 version = "0.3.0"
-source = "git+https://github.com/renlulu/rust-cid.git#7802115c6fed65ae1fd798074405c7964e5e20ec"
+source = "git+https://github.com/renlulu/rust-cid.git#c335309c05494db1eaf022655c43e40d0b048c3a"
 dependencies = [
  "integer-encoding 1.0.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "multibase 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "multihash 0.8.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde 1.0.87 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde_derive 1.0.87 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
